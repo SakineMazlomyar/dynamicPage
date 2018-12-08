@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+nav, footer{
+    width: 100%;
+    background-color: black;
+    color: white
+}
+nav ul, footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom:0;
+}
+
+
