@@ -1,7 +1,9 @@
 body{
     background-color: aqua;
 }
-nav, footer{
+nav{
+    position: fixed;
+    top: 0; left: 0; right: 0;
     width: 100%;
     background-color: black;
     color: white
@@ -18,6 +20,8 @@ footer{
     color: white;
     position: fixed;
     bottom:0;
+    right: 0; 
+    left: 0;
 }
 
 
